@@ -1,0 +1,56 @@
+.desktop-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+
+.desktop-nav-container {
+    background-color: var(--background-main);
+    margin: 1.25rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.desktop-nav div {
+    display: flex;
+    gap: 2rem;
+}
+
+.desktop-nav a {
+    text-decoration: none;
+    color: var(--text-main);
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+div.login-register-div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.desktop-nav button {
+    padding: 0.8rem 2rem;
+    border-radius: 32px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    border: 2px var(--text-main) solid;
+    font-size: 1rem;
+}
+
+.login-button {
+    background-color: var(--background-main);
+    color: var(--text-main);
+}
+
+.register-button {
+    background-color: var(--text-main);
+    color: var(--background-main);
+}

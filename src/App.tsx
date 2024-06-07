@@ -1,8 +1,10 @@
+import NavBar from "./components/NavBar/Navbar";
+
 function App() {
   return (
     <>
       <div>
-        <h1>rDiary</h1>
+        <NavBar />
       </div>
     </>
   );
