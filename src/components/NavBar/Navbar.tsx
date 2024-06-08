@@ -11,7 +11,7 @@ const NavBar = () => {
               rDiary
             </a>
           </div>
-          <div>
+          <div className="main-links">
             <a href="/#">Home</a>
             <a href="/#">About Us</a>
             <a href="/#">My Diary</a>
