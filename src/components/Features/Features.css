@@ -12,7 +12,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .features-section h2 {
@@ -25,4 +26,5 @@
 
 .features-section p {
     text-align: left;
+    line-height: 150%;
 }
