@@ -1,3 +1,4 @@
+import Features from "./components/Features/Features";
 import Hero from "./components/Hero/Hero";
 import NavBar from "./components/NavBar/Navbar";
 
@@ -7,6 +8,7 @@ function App() {
       <div>
         <NavBar />
         <Hero />
+        <Features />
       </div>
     </>
   );

@@ -13,7 +13,11 @@ const Hero = () => {
           </p>
           <button>Get Started Now</button>
         </div>
-        <img src={HeroImage} alt="" className="hero-image" />
+        <img
+          src={HeroImage}
+          alt="a cartoon illustration of a man happily dancing while surrounded by papers"
+          className="hero-image"
+        />
       </div>
     </section>
   );
