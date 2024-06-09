@@ -1,0 +1,48 @@
+.sign-up-section {
+    padding: 2rem;
+    margin: 6rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sign-up-section img {
+    width: 100%;
+}
+
+.sign-up-section h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+}
+
+.sign-up-section p {
+    margin-top: 0.5rem;
+}
+
+.sign-up-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.sign-up-section input {
+    padding: 0.8rem 1rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px gray solid;
+    width: 60%;
+}
+
+.sign-up-section button {
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    border: 2px var(--text-main) solid;
+    font-size: 1rem;
+    background-color: var(--text-main);
+    color: var(--background-main);
+    width: 65%;
+    margin-top: 1rem;
+}
