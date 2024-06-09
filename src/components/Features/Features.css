@@ -1,0 +1,28 @@
+.features-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 2rem;
+}
+
+.features-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.features-section h2 {
+    font-family: "Playfair Display", serif;
+}
+
+.features-section img {
+    width: 3rem;
+}
+
+.features-section p {
+    text-align: center;
+}
