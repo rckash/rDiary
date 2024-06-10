@@ -1,7 +1,14 @@
+import { useState } from "react";
 import "./NavBar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavBar = () => {
+  const [navToggle, setNavToggle] = useState(false);
+
+  const handleNavToggle = () => {
+    setNavToggle(!navToggle);
+  };
+
   return (
     <header>
       <nav className="desktop-nav">
@@ -29,9 +36,11 @@ const NavBar = () => {
             <a href="/#" className="logo">
               rDiary
             </a>
-            <FaBars />
+            <button onClick={handleNavToggle}>
+              {navToggle ? <FaTimes /> : <FaBars />}
+            </button>
           </div>
-          <div className="main-links">
+          <div className={navToggle ? "main-links" : "main-links-hidden"}>
             <a href="/#">Home</a>
             <a href="/#">About Us</a>
             <a href="/#">My Diary</a>
