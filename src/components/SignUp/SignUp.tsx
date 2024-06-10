@@ -14,10 +14,10 @@ const SignUp = () => {
 
           <div className="sign-up-input">
             <div>
-              <p>Username</p>
+              <p>Email</p>
               <input
                 type="text"
-                placeholder="Enter your username"
+                placeholder="Enter your email"
                 maxLength={100}
                 required
               />
