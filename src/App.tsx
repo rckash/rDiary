@@ -9,10 +9,10 @@ function App() {
     <>
       <div>
         <NavBar />
-        <Hero />
+        {/* <Hero />
         <Features />
         <SignUp />
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   );

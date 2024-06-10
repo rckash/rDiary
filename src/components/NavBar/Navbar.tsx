@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -18,6 +19,25 @@ const NavBar = () => {
           <div className="login-register-div">
             <button className="login-button">Login</button>
             <button className="register-button">Register</button>
+          </div>
+        </div>
+      </nav>
+
+      <nav className="mobile-nav">
+        <div className="mobile-nav-container">
+          <div className="logo-hamburger-links">
+            <a href="/#" className="logo">
+              rDiary
+            </a>
+            <FaBars />
+          </div>
+          <div className="main-links">
+            <a href="/#">Home</a>
+            <a href="/#">About Us</a>
+            <a href="/#">My Diary</a>
+            <hr />
+            <a href="">Login</a>
+            <a href="">Sign Up</a>
           </div>
         </div>
       </nav>
